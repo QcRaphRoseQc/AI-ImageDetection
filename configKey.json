@@ -1,0 +1,70 @@
+{
+	"keyList" : 
+	[
+		{
+			"isAim" : true,
+			"isBodyTrigger" : false,
+			"isEnable" : true,
+			"isTrigger" : true,
+			"key" : 0,
+			"sensitivityX" : 4.0,
+			"sensitivityY" : 3.0,
+			"virtualKey" : 1,
+			"virtualKeyInt" : 2,
+			"xOffset" : 1.0,
+			"yOffset" : -50.0
+		},
+		{
+			"isAim" : true,
+			"isBodyTrigger" : false,
+			"isEnable" : true,
+			"isTrigger" : false,
+			"key" : 1,
+			"sensitivityX" : 3.0,
+			"sensitivityY" : 3.0,
+			"virtualKey" : 3,
+			"virtualKeyInt" : 6,
+			"xOffset" : 1.0,
+			"yOffset" : -110.0
+		},
+		{
+			"isAim" : true,
+			"isBodyTrigger" : false,
+			"isEnable" : true,
+			"isTrigger" : false,
+			"key" : 2,
+			"sensitivityX" : 3.0,
+			"sensitivityY" : 2.0,
+			"virtualKey" : 2,
+			"virtualKeyInt" : 5,
+			"xOffset" : 1.0,
+			"yOffset" : -100.0
+		},
+		{
+			"isAim" : true,
+			"isBodyTrigger" : false,
+			"isEnable" : true,
+			"isTrigger" : false,
+			"key" : 3,
+			"sensitivityX" : 5.0,
+			"sensitivityY" : 5.0,
+			"virtualKey" : 0,
+			"virtualKeyInt" : 1,
+			"xOffset" : 1.0,
+			"yOffset" : -35.0
+		},
+		{
+			"isAim" : false,
+			"isBodyTrigger" : false,
+			"isEnable" : false,
+			"isTrigger" : false,
+			"key" : 4,
+			"sensitivityX" : 0.0,
+			"sensitivityY" : 0.0,
+			"virtualKey" : 6,
+			"virtualKeyInt" : 162,
+			"xOffset" : 0.0,
+			"yOffset" : 0.0
+		}
+	]
+}
