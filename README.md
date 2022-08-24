@@ -4,7 +4,7 @@
 
 - Trained AI with 10 000 manually labeled images from the video game destiny 2.
 
-- Achived a 100% detection rate with a .0082 average lost after 2 weeks training on my RTX 3080.
+- Achived a 100% detection rate with a .0082 average lost using Darknet YoloV4 algorythme after 2 weeks training(1 million iterations) on my RTX 3080.
 
 - Version 1.0 was in Python but I went to C++ for more speed , with my 3080 on python I was getting 10-20fps , and in C++ 70-100fps
 
