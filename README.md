@@ -14,7 +14,7 @@
 
 - I capture every frame with the help of a capture card, the AI analyze the image for an enemy.
 
-- Undetectable by natures by industy standard Anti-Cheat because no code run on the gaming OS, Enemy coordinates are send via Serial Port to the Arduino.
+- Undetectable by industy standard Anti-Cheat because no code run on the gaming OS, Enemy coordinates are send via Serial Port to the Arduino.
 
 - Created a GUI with the framework ImGui to adjust Aimbot settings without having to recompile everytime.
 
