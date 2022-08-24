@@ -1,113 +1,59 @@
-# TP3_Web
+# ***Work In Progress****
+
+# Description
+
+- Trained AI with 10 000 manually labeled images from the video game destiny 2.
+
+- Achived a 100% detection rate with a .0082 average lost after 2 weeks training on my RTX 3080.
+
+- Version 1.0 was in Python but I went to C++ for more speed , with my 3080 on python I was getting 10-20fps , and in C++ 70-100fps
+
+- I use an Arduino Leonardo and a USB Shield to simulate mouse movement.
+
+- Arduino is connected and recognize as Mouse by Windows 10.
+
+- I capture every frame with the help of a capture card, the AI analyze the image for an enemy.
+
+- Undetectable by natures by industy standard Anti-Cheat because no code run on the gaming OS, Enemy coordinates are send via Serial Port to the Arduino.
+
+- Created a GUI with the framework ImGui to adjust Aimbot settings without having to recompile everytime.
 
 
-Lien Front End  = https://rotten-frontend.herokuapp.com <br>
-Lien Back End = https://vuetp3.herokuapp.com/
 
 
-<h1>Code Source </h1>
 
-FrontEnd : 
+<p align="center">
+<img src="./images/chart.png"
+     alt="chart"
+     style="margin-right: 10px;" />
+</p>
 
-1) npm -i 
+<p align="center">
+<img src="./images/demo.jpg"
+     alt="demo"
+     style="margin-right: 10px;" />
+</p>
 
-2) npm run serve
+<p align="center">
+<img src="./images/gui.png"
+     alt="gui"
+     style="margin-right: 10px;" />
+</p>
 
-BackEnd : 
+<p align="center">
+<img src="./images/gui2.png"
+     alt="gui"
+     style="margin-right: 10px;" />
+</p>
 
-Modifier le .env pour vos info de BD dans le folder backend<br>
-Ensuite entrer les commandes suivantes:
+<p align="center">
+<img src="./images/labeling.jpg"
+     alt="chart"
+     style="margin-right: 10px;" />
+</p>
 
-1) composer update --no-scripts
-
-2) php artisan migrate ( la premiere fois ) 
-
-3) php artisan db:seed ( la premiere fois ) 
-
-4) php artisan serve
-
------------------------------------------------------------------
-
-pour se creer un user avec l'api 
-
-dans postman : 
-
-1) Headers = Accept application/json
-
-2) Body = raw Json
-
-users/register POST:
-
-    {
-        "login" : "admin",
-        "password" : "admin2002",
-        "email" : "admin@gmail.com",
-        "last_name" : "admin",
-        "first_name" : "admin",
-        "role_id" : "1"
-    }
-
-role_id 1 = admin 
-role_id 2 = user
-
-
-Voici les Routes du backend
-
-|ROUTE | ACTION | DESCRIPTION |
-|------|--------|-------------|
-| films                    | GET        | Consultation des films (sans critiques et sans acteurs)   |
-| films/actors/{id}        | GET        | Consultation de tous les acteurs d’un certain film        |
-| films/critics/{id}       | GET        | Consultation d’un certain film avec ces critiques         |
-| films/search             | GET        | Recherche de films                                        |
-| films                    | POST       | Ajout d’un film (seulement si admin)                      |
-| films/{id}               | DELETE     | Suppression d’un film (seulement si admin)                |
-| users/register           | POST       | Ajout d’un nouveau user                                   |
-| users/login              | POST       | Connexion d’un user                                       |
-| users/{id}               | GET        | Consultation des informations d’un certain user           |
-| users/logout             | POST       | Déconnexion d’un user                                     |
-| users                    | PUT        | Modification d’un user existant                           |
-| users/password           | PUT        | Modification du Mot de Passe                              |
-| critics                  | POST       | Ajout d’une critique (seulement si membre connecté)       |
-
-Exemple de requete json avec Postman:
-
-films POST:
-        
-    {            
-        "title": "Raph Contre Attack",
-        "release_year": "2006",
-        "length": 48,
-        "description": "A Astounding Epistle of a Database Administrator And a Explorer who must Find a Car in Ancient China",
-        "rating": "G",
-        "language_id": 1,
-        "special_features": "Trailers,Deleted Scenes",
-        "image": "null"
-    }
-
-users/register POST:
-
-    {
-        "login" : "admin",
-        "password" : "admin2002",
-        "email" : "admin@gmail.com",
-        "last_name" : "admin",
-        "first_name" : "admin",
-        "role_id" : "1"
-    }
-
-users/login POST:
-
-    {
-        "login" : "admin",
-        "password":"admin2002"   
-    }
-
-films/search GET:
-
-    {
-    "keywords":"A",
-    "max_length" : "150",
-    "rating" : "G"
-    }
-
-
+<p align="center">
+<img src="./images/usbshield.jpg"
+     alt="usbshield"
+     style="margin-right: 10px;" />
+</p>
